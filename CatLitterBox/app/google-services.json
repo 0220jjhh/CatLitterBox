@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1093468862148",
+    "firebase_url": "https://catlitterbox-b4b20.firebaseio.com",
+    "project_id": "catlitterbox-b4b20",
+    "storage_bucket": "catlitterbox-b4b20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093468862148:android:13802052704e0ea6",
+        "android_client_info": {
+          "package_name": "com.example.catlitterbox05"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093468862148-2citeojgud6nh9v3t87k4j9l77jj09ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjY25i5SBzZrgCjzA_f5tCBwi-BtKNIIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

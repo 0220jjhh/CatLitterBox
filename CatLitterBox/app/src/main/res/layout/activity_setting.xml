@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.catlitterbox05.SettingActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/app_settings_topbar"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROFILE"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:id="@+id/textView"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_calendar_cat_photo_default"
+            android:id="@+id/catImage"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp" />
+
+
+        <Button
+            android:id="@+id/catBtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/catImage"
+            android:background="#00ff0000"
+            android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/catName"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/catImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:textSize="15dp"
+        android:hint="Cat Name"
+        android:textColorHint="#808080"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PUSH ALARM"
+            android:textSize="15dp"
+            android:id="@+id/textView2"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+    <ToggleButton
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/toggle_btn"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textOn=" "
+        android:textOff=" "
+        android:id="@+id/toggleButton" />
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="0.5dp"
+        android:background="@drawable/app_settings_line"
+        android:layout_above="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEVICE SWITCH"
+        android:textSize="15dp"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/deviceSwitch"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="0.5dp"
+        android:background="@drawable/app_settings_line"
+        android:layout_above="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/deviceSwitch"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/app_settings_device_switch_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/calendarBtn"
+                android:layout_width="48dp"
+                android:layout_height="36dp"
+                android:background="@drawable/app_main_icon_calendar"
+                android:layout_marginLeft="36dp"
+                android:layout_marginStart="36dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/mainBtn"
+                android:layout_width="48dp"
+                android:layout_height="36dp"
+                android:background="@drawable/app_main_icon_home"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/settingsBtn"
+                android:layout_width="48dp"
+                android:layout_height="36dp"
+                android:layout_alignBottom="@+id/mainBtn"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="35dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/app_main_icon_settings_selected"
+                android:layout_alignTop="@+id/mainBtn" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
